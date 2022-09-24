@@ -1,10 +1,8 @@
 {
     "extension_name": {
-        "message": "ytb-short-block Extension",
-        "description": "The display name for the extension."
+        "message": "Youtube-shorts block",
     },
     "extension_description": {
-        "message": "This is ytb-short-block Extension. You should tell us what your extension does here.",
-        "description": "Description of what the extension does."
+        "message": "A extension allows youtube shorts videos to play on a regular page.",
     }
 }
