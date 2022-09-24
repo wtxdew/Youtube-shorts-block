@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D604D128DF198500C7D303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D604D028DF198500C7D303 /* AppDelegate.swift */; };
+		03D604D528DF198500C7D303 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 03D604D328DF198500C7D303 /* Main.html */; };
+		03D604D728DF198500C7D303 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D604D628DF198500C7D303 /* Icon.png */; };
+		03D604D928DF198500C7D303 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 03D604D828DF198500C7D303 /* Style.css */; };
+		03D604DB28DF198500C7D303 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 03D604DA28DF198500C7D303 /* Script.js */; };
+		03D604DD28DF198500C7D303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D604DC28DF198500C7D303 /* ViewController.swift */; };
+		03D604E028DF198500C7D303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D604DE28DF198500C7D303 /* Main.storyboard */; };
+		03D604E228DF198600C7D303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D604E128DF198600C7D303 /* Assets.xcassets */; };
+		03D604EA28DF198600C7D303 /* ytb-short-block Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03D604E928DF198600C7D303 /* ytb-short-block Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03D604EF28DF198600C7D303 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D604EE28DF198600C7D303 /* SafariWebExtensionHandler.swift */; };
+		03D604F228DF198600C7D303 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 03D604F128DF198600C7D303 /* _locales */; };
+		03D604F428DF198600C7D303 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 03D604F328DF198600C7D303 /* images */; };
+		03D604F628DF198600C7D303 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 03D604F528DF198600C7D303 /* manifest.json */; };
+		03D604F828DF198600C7D303 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 03D604F728DF198600C7D303 /* background.js */; };
+		03D604FA28DF198600C7D303 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 03D604F928DF198600C7D303 /* content.js */; };
+		03D604FC28DF198600C7D303 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 03D604FB28DF198600C7D303 /* popup.html */; };
+		03D604FE28DF198600C7D303 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 03D604FD28DF198600C7D303 /* popup.css */; };
+		03D6050028DF198600C7D303 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 03D604FF28DF198600C7D303 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D604EB28DF198600C7D303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D604C528DF198500C7D303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D604E828DF198600C7D303;
+			remoteInfo = "ytb-short-block Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03D6050828DF198600C7D303 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03D604EA28DF198600C7D303 /* ytb-short-block Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03D604CD28DF198500C7D303 /* ytb-short-block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ytb-short-block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D604D028DF198500C7D303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03D604D428DF198500C7D303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		03D604D628DF198500C7D303 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		03D604D828DF198500C7D303 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		03D604DA28DF198500C7D303 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		03D604DC28DF198500C7D303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03D604DF28DF198500C7D303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03D604E128DF198600C7D303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D604E328DF198600C7D303 /* ytb_short_block.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ytb_short_block.entitlements; sourceTree = "<group>"; };
+		03D604E428DF198600C7D303 /* ytb-short-block.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ytb-short-block.entitlements"; sourceTree = "<group>"; };
+		03D604E928DF198600C7D303 /* ytb-short-block Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ytb-short-block Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D604EE28DF198600C7D303 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		03D604F128DF198600C7D303 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		03D604F328DF198600C7D303 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		03D604F528DF198600C7D303 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		03D604F728DF198600C7D303 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		03D604F928DF198600C7D303 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		03D604FB28DF198600C7D303 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		03D604FD28DF198600C7D303 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		03D604FF28DF198600C7D303 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		03D6050128DF198600C7D303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D6050228DF198600C7D303 /* ytb_short_block_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ytb_short_block_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D604CA28DF198500C7D303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D604E628DF198600C7D303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D604C428DF198500C7D303 = {
+			isa = PBXGroup;
+			children = (
+				03D604CF28DF198500C7D303 /* ytb-short-block */,
+				03D604ED28DF198600C7D303 /* ytb-short-block Extension */,
+				03D604CE28DF198500C7D303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D604CE28DF198500C7D303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D604CD28DF198500C7D303 /* ytb-short-block.app */,
+				03D604E928DF198600C7D303 /* ytb-short-block Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D604CF28DF198500C7D303 /* ytb-short-block */ = {
+			isa = PBXGroup;
+			children = (
+				03D604D028DF198500C7D303 /* AppDelegate.swift */,
+				03D604DC28DF198500C7D303 /* ViewController.swift */,
+				03D604DE28DF198500C7D303 /* Main.storyboard */,
+				03D604E128DF198600C7D303 /* Assets.xcassets */,
+				03D604E328DF198600C7D303 /* ytb_short_block.entitlements */,
+				03D604E428DF198600C7D303 /* ytb-short-block.entitlements */,
+				03D604D228DF198500C7D303 /* Resources */,
+			);
+			path = "ytb-short-block";
+			sourceTree = "<group>";
+		};
+		03D604D228DF198500C7D303 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03D604D328DF198500C7D303 /* Main.html */,
+				03D604D628DF198500C7D303 /* Icon.png */,
+				03D604D828DF198500C7D303 /* Style.css */,
+				03D604DA28DF198500C7D303 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03D604ED28DF198600C7D303 /* ytb-short-block Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03D604EE28DF198600C7D303 /* SafariWebExtensionHandler.swift */,
+				03D6050128DF198600C7D303 /* Info.plist */,
+				03D6050228DF198600C7D303 /* ytb_short_block_Extension.entitlements */,
+				03D604F028DF198600C7D303 /* Resources */,
+			);
+			path = "ytb-short-block Extension";
+			sourceTree = "<group>";
+		};
+		03D604F028DF198600C7D303 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03D604F128DF198600C7D303 /* _locales */,
+				03D604F328DF198600C7D303 /* images */,
+				03D604F528DF198600C7D303 /* manifest.json */,
+				03D604F728DF198600C7D303 /* background.js */,
+				03D604F928DF198600C7D303 /* content.js */,
+				03D604FB28DF198600C7D303 /* popup.html */,
+				03D604FD28DF198600C7D303 /* popup.css */,
+				03D604FF28DF198600C7D303 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D604CC28DF198500C7D303 /* ytb-short-block */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D6050928DF198600C7D303 /* Build configuration list for PBXNativeTarget "ytb-short-block" */;
+			buildPhases = (
+				03D604C928DF198500C7D303 /* Sources */,
+				03D604CA28DF198500C7D303 /* Frameworks */,
+				03D604CB28DF198500C7D303 /* Resources */,
+				03D6050828DF198600C7D303 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D604EC28DF198600C7D303 /* PBXTargetDependency */,
+			);
+			name = "ytb-short-block";
+			productName = "ytb-short-block";
+			productReference = 03D604CD28DF198500C7D303 /* ytb-short-block.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D604E828DF198600C7D303 /* ytb-short-block Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D6050528DF198600C7D303 /* Build configuration list for PBXNativeTarget "ytb-short-block Extension" */;
+			buildPhases = (
+				03D604E528DF198600C7D303 /* Sources */,
+				03D604E628DF198600C7D303 /* Frameworks */,
+				03D604E728DF198600C7D303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ytb-short-block Extension";
+			productName = "ytb-short-block Extension";
+			productReference = 03D604E928DF198600C7D303 /* ytb-short-block Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D604C528DF198500C7D303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					03D604CC28DF198500C7D303 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					03D604E828DF198600C7D303 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 03D604C828DF198500C7D303 /* Build configuration list for PBXProject "ytb-short-block" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D604C428DF198500C7D303;
+			productRefGroup = 03D604CE28DF198500C7D303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D604CC28DF198500C7D303 /* ytb-short-block */,
+				03D604E828DF198600C7D303 /* ytb-short-block Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D604CB28DF198500C7D303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D604D728DF198500C7D303 /* Icon.png in Resources */,
+				03D604E028DF198500C7D303 /* Main.storyboard in Resources */,
+				03D604DB28DF198500C7D303 /* Script.js in Resources */,
+				03D604D528DF198500C7D303 /* Main.html in Resources */,
+				03D604E228DF198600C7D303 /* Assets.xcassets in Resources */,
+				03D604D928DF198500C7D303 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D604E728DF198600C7D303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D604F828DF198600C7D303 /* background.js in Resources */,
+				03D604FE28DF198600C7D303 /* popup.css in Resources */,
+				03D604FC28DF198600C7D303 /* popup.html in Resources */,
+				03D604F428DF198600C7D303 /* images in Resources */,
+				03D604F628DF198600C7D303 /* manifest.json in Resources */,
+				03D604F228DF198600C7D303 /* _locales in Resources */,
+				03D604FA28DF198600C7D303 /* content.js in Resources */,
+				03D6050028DF198600C7D303 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D604C928DF198500C7D303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D604DD28DF198500C7D303 /* ViewController.swift in Sources */,
+				03D604D128DF198500C7D303 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D604E528DF198600C7D303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D604EF28DF198600C7D303 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D604EC28DF198600C7D303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D604E828DF198600C7D303 /* ytb-short-block Extension */;
+			targetProxy = 03D604EB28DF198600C7D303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03D604D328DF198500C7D303 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D604D428DF198500C7D303 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		03D604DE28DF198500C7D303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D604DF28DF198500C7D303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D6050328DF198600C7D303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03D6050428DF198600C7D303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03D6050628DF198600C7D303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ytb-short-block Extension/ytb_short_block_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLM6M5D9BS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ytb-short-block Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ytb-short-block Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uwt.ytb-short-block.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		03D6050728DF198600C7D303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ytb-short-block Extension/ytb_short_block_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLM6M5D9BS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ytb-short-block Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ytb-short-block Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uwt.ytb-short-block.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		03D6050A28DF198600C7D303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ytb-short-block/ytb-short-block.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLM6M5D9BS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ytb-short-block";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uwt.ytb-short-block";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		03D6050B28DF198600C7D303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ytb-short-block/ytb-short-block.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLM6M5D9BS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ytb-short-block";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uwt.ytb-short-block";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D604C828DF198500C7D303 /* Build configuration list for PBXProject "ytb-short-block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D6050328DF198600C7D303 /* Debug */,
+				03D6050428DF198600C7D303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D6050528DF198600C7D303 /* Build configuration list for PBXNativeTarget "ytb-short-block Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D6050628DF198600C7D303 /* Debug */,
+				03D6050728DF198600C7D303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D6050928DF198600C7D303 /* Build configuration list for PBXNativeTarget "ytb-short-block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D6050A28DF198600C7D303 /* Debug */,
+				03D6050B28DF198600C7D303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D604C528DF198500C7D303 /* Project object */;
+}
